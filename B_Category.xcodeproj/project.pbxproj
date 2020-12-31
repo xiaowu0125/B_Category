@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		627AAB49259C25F1000127D7 /* B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627AAB48259C25F1000127D7 /* B_CategoryTests.m */; };
 		627AAB54259C25F1000127D7 /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627AAB53259C25F1000127D7 /* B_CategoryUITests.m */; };
 		627AAB6A259C2649000127D7 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 627AAB69259C2649000127D7 /* CTMediator+B.m */; };
+		627AAC1B259D5B03000127D7 /* CTMediator+B.h in Sources */ = {isa = PBXBuildFile; fileRef = 627AAB68259C2649000127D7 /* CTMediator+B.h */; };
 		70437D79F029749DD0CE831D /* Pods_B_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569358999464A6A6D243BEDB /* Pods_B_Category.framework */; };
 /* End PBXBuildFile section */
 
@@ -166,7 +167,6 @@
 				1FE8E48230937E569181B237 /* Pods-B_Category.debug.xcconfig */,
 				E6FB011C63D1C6C92C7D7AD3 /* Pods-B_Category.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -343,9 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627AAC1B259D5B03000127D7 /* CTMediator+B.h in Sources */,
+				627AAB6A259C2649000127D7 /* CTMediator+B.m in Sources */,
 				627AAB34259C25EE000127D7 /* ViewController.m in Sources */,
 				627AAB2E259C25EE000127D7 /* AppDelegate.m in Sources */,
-				627AAB6A259C2649000127D7 /* CTMediator+B.m in Sources */,
 				627AAB3F259C25F0000127D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
