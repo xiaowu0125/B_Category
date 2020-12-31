@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "B_Category"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "B_Category."
 
   # This description is used to generate tags and improve search results.
@@ -138,5 +138,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "CTMediator"
+
 
 end
