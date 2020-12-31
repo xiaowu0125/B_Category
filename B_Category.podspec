@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 15
+# version.develop = 1
 # version.test = 0
 # version.gray = 0
 
@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "B_Category"
-  s.version      = "15.0.0"
-  s.swift_version = '5.1'
+  s.version      = "1.0.2"
   s.summary      = "B_Category."
 
   # This description is used to generate tags and improve search results.
